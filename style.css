@@ -1,0 +1,225 @@
+body{
+    background-color: rgb(178, 187, 187);
+    padding: 0%;
+    margin: 0;
+
+    
+}
+header{
+    background-color: #666;
+    height: 100px;
+    line-height: 50px;
+    justify-content: center;
+    text-align: center;
+}
+span  {color: rgb(0, 0, 0);
+    font-size:xx-large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.ageCalculater{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+.ageCalculater iframe{
+    margin-top: auto;
+    margin-bottom: auto;
+    min-width: fit-content;
+    min-width: 400px;
+    min-height: 300px;
+    border-radius: 60px;
+    border-bottom: n;
+   
+}
+input{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+main .simpleCalculater{
+    width: max-content;
+    border: #b61717 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(110, 108, 108);
+    border-radius: 30px;
+   
+}
+main .simpleCalculater button{
+    box-shadow: 0 7px #141414;
+
+}
+main .simpleCalculater button:hover{
+    background-color: #666;
+}
+main .simpleCalculater button:active{
+    box-shadow: 0px 0px;
+}
+.head button{
+     width: 10%;
+     height: 60px;
+     margin-left: 18%;
+     border-radius: 20px;
+     box-shadow: 0 2px #666;
+     background-color: #77c479;
+     font-size: large;
+     font-weight: bold;
+    }
+   
+main{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+  div button{
+    width: 20%;
+    height: 40px;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: sans-serif;
+    background-color: rgb(241, 21, 212);
+    border-radius: 50px;
+    
+  }
+
+  main input{
+margin-top: 20px;
+    width: 84%;
+    height: 50px;
+    border-radius: 50px;
+  }
+main input::after,main input::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    display:flex;
+    background: conic-gradient(red
+    ,blue,green,yellow,black);
+    padding: 20px;
+}
+
+  #history {
+    margin-top: 20px;
+    display: none;
+    color: #77c479;
+}
+#result {
+    align-self: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid;
+    line-height: 40px;
+
+}
+.percen button{
+    height: 50px ;
+    width: 200px;
+}
+#headspan1{
+    display: none;
+    
+}
+@media  only screen and (max-width : 600px)  {
+header button {
+    margin-left: auto;
+    width: auto;
+    background-color: green;
+    font-weight: 10px;
+    font-size: 10px;
+    float: left; 
+    margin-left: 20px;
+}
+#mode, #his{
+    background-color: green;
+    width: max-content;
+}
+#headspan{
+    display: none;
+}
+#headspan1{
+    display: block;
+    
+}
+
+    main{
+        margin-left: 2%;
+    }
+div button{
+    margin-left:1% ;
+}
+.simpleCalculater{
+    max-width:300px;
+}
+.ageCalculater{
+    max-width: 300px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+}
+div button{
+    font-size: auto;
+    
+}
+#calculate {
+    font-size: xx-large;
+    background-color: rgb(236, 0, 0);
+    line-height: 80px;
+    height: 180px;
+}
+#calculate {
+    text-decoration:none;
+    direction: none;
+}
+
+    #per {
+        width: 200px;
+    }
+#result{
+    font-size: large;
+    font-weight: bold;
+    color: #77c479;
+
+}
+
+form input {
+    width: 200px;
+    height: 50px;
+    font-size: small;
+    font-weight: normal;
+}
+form button{
+    width: 150px;
+    margin-top: 30px;
+    height: 50px;
+    margin-left: 200px;
+}
+
+
+footer{
+    background-color: rgb(15, 15, 28);
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+  line-height: 50px;
+  margin-top: 100px;
+  }
+  footer img{
+    width: 32px;
+    height: 30px;
+    border-radius:3px;
+    
+    background-blend-mode: color-burn;
+    
+    
+  }

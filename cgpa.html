@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculater</title>
+    <link rel="stylesheet" href="cgpa.css" >
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+
+        <span id="he">Calculater  </span>
+        <span style="display: block; font-size: large; font-weight: bold;"> A project of codeAlpha</span>
+
+        <button id="zk">Change Background Colour</button> 
+
+
+
+
+
+
+    </header>
+    <main>
+    <div class="userguidence">
+        <h1>Welcome to GPA Calculater</h1>
+        <h1>Usre Guidence</h1>
+        <p>
+            The GPA calculator requires two data inputs for each subject: the <strong> credit hours</strong> and the <strong>credit grades (or
+            credit</strong>
+            scores). The credit hours represent the weight or importance of the course, typically assigned by your
+            educational
+            institution. The credit grades or scores are the numerical or letter grades you have earned in each course.
+            Knowing
+            the credit hours for your courses, let's move on to understanding the credit grades.</p>
+        <p>
+            To find your credit grades, you need to determine the percentage score for each subject. This percentage is
+            usually
+            available on your report card or transcript. Once you have the percentage score for a subject, you can
+            convert it to
+            a credit grade using the standard grading scale provided by your institution. For example, a percentage
+            score of 85%
+            might correspond to an 'A' grade, which might be equivalent to 4.0 on a 4.0 scale. Record the credit grades
+            for each
+            subject as you will need them for calculating your GPA.
+        </p>
+    </div>
+    <div class="table">
+       <div class="instruction_Table"><h1> Table to Note Your Cridit Score 
+        </h1>
+        <p>For instance, if my marks in English are 90 out of 100,<br> my credit score for the English subject would be 3.7.
+        </p>
+<table>
+        <tr>
+            <th>Letter Grade </th>
+            <th> Percentage</th>
+            <th> Cridit score</th>
+        </tr>
+        <tr>
+            <td>A+ </td>
+            <td> 97-100</td>
+            <td> 4.00 </td>
+        </tr>
+        <tr>
+            <td>A </td>
+            <td> 93-96</td>
+            <td> 4.00 </td>
+        </tr>
+        <tr>
+            <td>A- </td>
+            <td> 90-92</td>
+            <td> 3.7 </td>
+        </tr>
+        <tr>
+            <td>B+ </td>
+            <td> 87-89</td>
+            <td> 3.3 </td>
+        </tr>
+        <tr>
+            <td>B </td>
+            <td>83-86 </td>
+            <td> 3.0 </td>
+        </tr>
+        <tr>
+            <td>B- </td>
+            <td> 80-82</td>
+            <td> 2.7 </td>
+        </tr>
+        <tr>
+            <td>C+ </td>
+            <td>77-79 </td>
+            <td> 2.3 </td>
+        </tr>
+        <tr>
+            <td>C </td>
+            <td>73-76 </td>
+            <td> 2.00 </td>
+        </tr>
+        <tr>
+            <td>C- </td>
+            <td> 70-72</td>
+            <td> 1.7 </td>
+        </tr>
+        <tr>
+            <td>D+</td>
+            <td>67-69 </td>
+            <td> 1.3 </td>
+        </tr>
+        <tr>
+            <td>D </td>
+            <td> 65-66</td>
+            <td>1.00 </td>
+        </tr>
+        <tr>
+            <td>E/F </td>
+            <td> Below 65</td>
+            <td> 0.00</td>
+        </tr>
+
+
+    </table>
+    </div></div>
+    <form id="gpaForm">
+        <h1>Calculate Your GPA</h1>
+
+        <div>
+            
+            Subject 1:
+            <input type="number" placeholder="Credit Hours, e.g., 3" id="hours1" required>
+            <input type="number" placeholder="Score, e.g., 4" id="score1" required>
+        </div>
+        <div>Subject 2:
+            <input type="number" placeholder="Credit Hours" id="hours2" required>
+            <input type="number" placeholder="Score" id="score2" required>
+        </div>
+        <div>Subject 3:
+            <input type="number" placeholder="Credit Hours" id="hours3" required>
+            <input type="number" placeholder="Score" id="score3" required>
+        </div>
+        <div>Subject 4:
+            <input type="number" placeholder="Credit Hours" id="hours4" required>
+            <input type="number" placeholder="Score" id="score4" required>
+        </div>
+        <div>Subject 5:
+            <input type="number" placeholder="Credit Hours" id="hours5" required>
+            <input type="number" placeholder="Score" id="score5" required>
+        </div>
+        <div>Subject 6:
+            <input type="number" placeholder="Credit Hours" id="hours6" required>
+            <input type="number" placeholder="Score" id="score6" required>
+        </div>
+        <button type="button" onclick="calculate()">Calculate GPA</button>
+        <div class="result" id="result"></div>
+    </form>
+
+    </main>
+    
+    <footer>
+        <p>&COPY; Zohaib Khan Front-End Web Devolper & Desighner </p>
+        <label for="Portfolio">Connect On</label>
+
+        <a href="https://www.linkedin.com/in/zohaib-khan">
+            <img src="linkdin.png" alt="Connect On linkdin">
+        </a>
+        <label for="Portfolio">Send Mail</label>
+
+        <a href="mailto:zohaibkhaneduawkum@gmail.com">
+            <img src="Gmail.png" alt="Send Mail">
+        </a>
+        <label for="Portfolio">Portfolio</label>
+        <a href="https://khan-1291.github.io/zohaibKhan/">
+            <img src="port.png" alt="Portfolio">
+        </a>
+
+    </footer>
+        <script src="cgpa.js"></script>
+</body>
+
+</html>
