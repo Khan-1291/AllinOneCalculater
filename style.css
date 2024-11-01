@@ -19,24 +19,7 @@ span  {color: rgb(0, 0, 0);
     
 
 }
-.ageCalculater{
-    width: 350px;
-    height: 400px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    align-self: center;
-}
-.ageCalculater iframe{
-    margin-top: auto;
-    margin-bottom: auto;
-    min-width: fit-content;
-    min-width: 400px;
-    min-height: 300px;
-    border-radius: 60px;
-    border-bottom: n;
-   
-}
+
 input{
     text-align: center;
     font-weight: bold;
@@ -78,7 +61,7 @@ main{
     margin-right: auto;
     text-align: center;
 }
-  div button{
+.simpleCalculater button,.calculator button{
     width: 20%;
     height: 40px;
     margin: 5px;
@@ -223,3 +206,42 @@ footer{
     
     
   }
+  .ageCalculater {
+  }
+  .continer{
+    max-width: fit-content;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 2px 2px 2px 1.5px;
+    box-shadow: grey;
+    font-size: large;
+    font-weight: bold;
+    font-style: inherit;
+    border-radius: 30px;
+}
+.continer h1{
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: inherit;
+    margin-top: 30px;
+    line-height: 60px;
+
+}
+.continer input{
+
+    
+   
+}
+.continer button{
+    background-color: #ee12a5;
+    height: 40px;
+   
+    width: 120px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: bold;
+
+    
+}
